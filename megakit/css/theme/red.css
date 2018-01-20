@@ -210,7 +210,7 @@ a:focus, a:hover {
 /* Image Effect
 ------------------------------ */
 .s-portfolio__img-effect:after {
-  background: rgba(197, 64, 65, 0.95);
+  background: #c54041;
 }
 
 /* Arrows

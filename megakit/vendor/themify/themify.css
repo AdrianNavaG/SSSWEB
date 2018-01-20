@@ -218,6 +218,9 @@
 .ti-desktop:before {
 	content: "\e640";
 }
+.ti-mobile:before {
+	content: "\e621";
+}
 .ti-cup:before {
 	content: "\e641";
 }

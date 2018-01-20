@@ -10,11 +10,11 @@ var Circle = function() {
       radius: 65,
       value: 55,
       width: 2,
-      textClass: 'g-font-size-24--xs g-color--primary',
+      textClass: 'g-font-size-24--xs g-color--red',
       text: function(value) {
         return value + '%';
       },
-      colors: ['rgba(16,122,118,.2)', '#13b1cd'],
+      colors: ['rgba(16,122,118,.2)', '#B40404'],
       duration: 1500
     });
 
@@ -24,11 +24,11 @@ var Circle = function() {
       radius: 65,
       value: 72,
       width: 2,
-      textClass: 'g-font-size-24--xs g-color--primary',
+      textClass: 'g-font-size-24--xs g-color--red',
       text: function(value) {
         return value + '%';
       },
-      colors: ['rgba(16,122,118,.2)', '#13b1cd'],
+      colors: ['rgba(16,122,118,.2)', '#B40404'],
       duration: 1500
     });
 
@@ -38,11 +38,11 @@ var Circle = function() {
       radius: 65,
       value: 69,
       width: 2,
-      textClass: 'g-font-size-24--xs g-color--primary',
+      textClass: 'g-font-size-24--xs g-color--red',
       text: function(value) {
         return value + '%';
       },
-      colors: ['rgba(16,122,118,.2)', '#13b1cd'],
+      colors: ['rgba(16,122,118,.2)', '#B40404'],
       duration: 1500
     });
 
@@ -52,11 +52,11 @@ var Circle = function() {
       radius: 65,
       value: 82,
       width: 2,
-      textClass: 'g-font-size-24--xs g-color--primary',
+      textClass: 'g-font-size-24--xs g-color--red',
       text: function(value) {
         return value + '%';
       },
-      colors: ['rgba(16,122,118,.2)', '#13b1cd'],
+      colors: ['rgba(16,122,118,.2)', '#B40404'],
       duration: 1500
     });
   }
