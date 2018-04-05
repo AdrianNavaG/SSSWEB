@@ -71,11 +71,11 @@
                     <div class="container-fluid">
                         <!-- Menu List -->                                
                         <ul class="list-unstyled s-header__nav-menu">
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="index.html">Inicio</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index.html">Inicio</a></li>
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about.html">Nosotros</a></li>
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="services.html">Servicios</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_portfolio.html">Portfolio</a></li>
-                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts.html">Contacto</a></li>
+<!--                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index_portfolio.html">Portfolio</a></li> -->
+                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="contacts.html">Contacto</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-                <form class="center-block g-width-500--sm g-width-550--md">
+                <form class="center-block g-width-500--sm g-width-550--md" onSubmit="return contactar()">
                     <div class="g-margin-b-30--xs">
                         <input type="text" class="form-control s-form-v3__input" placeholder="* Nombre">
                     </div>
@@ -243,7 +243,24 @@
         <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
         <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
         <!--========== END JAVASCRIPTS ==========-->
+        
+     <!--   <script>
+		  function contactar(){
+		    alert('<?php echo accion(); ?>');
+// 		    alert(<?php echo acciondos(); ?>);
+		    /* Escribir en el Documento*/
+// 		    document.write('<?php echo accion(); ?>');
+// 		    document.write(<?php echo acciondos(); ?>);
+		  }
+		</script>-->  
 
     </body>
     <!-- End Body -->
+<!--     <?php -->
+    $msg = "First line of text\nSecond line of text";
+$msg = wordwrap($msg,70);
+
+// send email
+mail("someone@example.com","My subject",$msg);
+<!-- ?> -->
 </html>
